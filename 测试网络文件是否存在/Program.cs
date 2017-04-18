@@ -10,11 +10,11 @@ namespace 测试网络文件是否存在
     {
         static void Main(string[] args)
         {
-            string url = @"https://wkbdemo.blob.core.chinacloudapi.cn/classicons/9838/t_f025c35e-a5c3-4013-8005-593e4e9d9.png";//网络文件地址
+            string url = @"https://www.baidu.com/test.png";//网络文件地址
             if (JudgeFileExist(url))
-            { Console.WriteLine("03网络文件确实存在！"); }
+            { Console.WriteLine("网络文件确实存在！"); }
             else
-            { Console.WriteLine("03网络文件不存在！"); }
+            { Console.WriteLine("网络文件不存在！"); }
             Console.ReadKey();
         }
         private static bool JudgeFileExist(string url)
