@@ -11,6 +11,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "测试本地文件是否存
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "判断bool值", "判断bool值\判断bool值.csproj", "{A16E70B4-1401-4CF6-B252-6FBBD21D9662}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "敏感词过滤", "敏感词过滤\敏感词过滤.csproj", "{3FD0A8EB-DDB6-44B4-9189-1501394F5C84}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -33,6 +35,10 @@ Global
 		{A16E70B4-1401-4CF6-B252-6FBBD21D9662}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A16E70B4-1401-4CF6-B252-6FBBD21D9662}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A16E70B4-1401-4CF6-B252-6FBBD21D9662}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3FD0A8EB-DDB6-44B4-9189-1501394F5C84}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3FD0A8EB-DDB6-44B4-9189-1501394F5C84}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3FD0A8EB-DDB6-44B4-9189-1501394F5C84}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3FD0A8EB-DDB6-44B4-9189-1501394F5C84}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
