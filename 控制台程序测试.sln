@@ -13,6 +13,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "判断bool值", "判断bool
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "敏感词过滤", "敏感词过滤\敏感词过滤.csproj", "{3FD0A8EB-DDB6-44B4-9189-1501394F5C84}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "异常处理", "异常处理\异常处理.csproj", "{631F312B-CCD9-4DAF-8542-64F56F6BEBD8}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -39,6 +41,10 @@ Global
 		{3FD0A8EB-DDB6-44B4-9189-1501394F5C84}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{3FD0A8EB-DDB6-44B4-9189-1501394F5C84}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{3FD0A8EB-DDB6-44B4-9189-1501394F5C84}.Release|Any CPU.Build.0 = Release|Any CPU
+		{631F312B-CCD9-4DAF-8542-64F56F6BEBD8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{631F312B-CCD9-4DAF-8542-64F56F6BEBD8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{631F312B-CCD9-4DAF-8542-64F56F6BEBD8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{631F312B-CCD9-4DAF-8542-64F56F6BEBD8}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
