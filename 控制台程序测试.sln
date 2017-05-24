@@ -15,6 +15,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "敏感词过滤", "敏感�
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "异常处理", "异常处理\异常处理.csproj", "{631F312B-CCD9-4DAF-8542-64F56F6BEBD8}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "正则表达式匹配字符串是否可空验证", "正则表达式匹配字符串是否可空验证\正则表达式匹配字符串是否可空验证.csproj", "{B8186D7D-AEA9-4C46-8C2F-9F838A744771}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestService", "TestService\TestService.csproj", "{394D66D7-CF96-45C1-B54D-1168A20764D3}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -45,6 +49,14 @@ Global
 		{631F312B-CCD9-4DAF-8542-64F56F6BEBD8}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{631F312B-CCD9-4DAF-8542-64F56F6BEBD8}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{631F312B-CCD9-4DAF-8542-64F56F6BEBD8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B8186D7D-AEA9-4C46-8C2F-9F838A744771}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B8186D7D-AEA9-4C46-8C2F-9F838A744771}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B8186D7D-AEA9-4C46-8C2F-9F838A744771}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B8186D7D-AEA9-4C46-8C2F-9F838A744771}.Release|Any CPU.Build.0 = Release|Any CPU
+		{394D66D7-CF96-45C1-B54D-1168A20764D3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{394D66D7-CF96-45C1-B54D-1168A20764D3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{394D66D7-CF96-45C1-B54D-1168A20764D3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{394D66D7-CF96-45C1-B54D-1168A20764D3}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
