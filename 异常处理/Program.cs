@@ -13,7 +13,7 @@ namespace 异常处理
             int[] number = { 1, 2, 3, 4, 5 };
             try
             {
-                Program.test();
+                test();
                 Console.WriteLine(number[9]);
             }
             catch (Exception ex)
@@ -22,6 +22,9 @@ namespace 异常处理
 
             }
 
+
+
+            Console.ReadKey();
         }
         public static void test()
         {
