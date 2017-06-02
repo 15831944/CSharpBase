@@ -1,0 +1,15 @@
+﻿@using 动态强类型视图示例.Controllers
+@model List<HomeController.Blogs>
+@{
+    ViewBag.Title = "Index";
+}
+
+<h2>强类型视图</h2>
+<ul>
+    @foreach (var item in Model)
+    {
+<li>书名：@item.Name,描述：@item.Description</li>
+    }
+</ul>
+
+
