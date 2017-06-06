@@ -23,6 +23,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "自定义泛型1", "自定�
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "动态强类型视图示例", "动态强类型视图示例\动态强类型视图示例.csproj", "{A2869139-F21D-43CD-99F8-1181A45AD025}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "字典排序", "字典排序\字典排序.csproj", "{E20F32C7-A8E1-488C-BBBF-020205728006}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -69,6 +71,10 @@ Global
 		{A2869139-F21D-43CD-99F8-1181A45AD025}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A2869139-F21D-43CD-99F8-1181A45AD025}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A2869139-F21D-43CD-99F8-1181A45AD025}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E20F32C7-A8E1-488C-BBBF-020205728006}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E20F32C7-A8E1-488C-BBBF-020205728006}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E20F32C7-A8E1-488C-BBBF-020205728006}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E20F32C7-A8E1-488C-BBBF-020205728006}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
