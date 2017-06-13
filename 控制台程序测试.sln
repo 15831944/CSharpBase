@@ -29,6 +29,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "可空类型", "可空类�
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "抽奖程序", "抽奖程序\抽奖程序.csproj", "{678C16A2-6B22-43E8-AA21-287C5A029ADB}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "序列化字符串是否包含某字符串", "序列化字符串是否包含某字符串\序列化字符串是否包含某字符串.csproj", "{729753A2-06B2-4850-BF46-F3E5A9D6D6C5}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -87,6 +89,10 @@ Global
 		{678C16A2-6B22-43E8-AA21-287C5A029ADB}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{678C16A2-6B22-43E8-AA21-287C5A029ADB}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{678C16A2-6B22-43E8-AA21-287C5A029ADB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{729753A2-06B2-4850-BF46-F3E5A9D6D6C5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{729753A2-06B2-4850-BF46-F3E5A9D6D6C5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{729753A2-06B2-4850-BF46-F3E5A9D6D6C5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{729753A2-06B2-4850-BF46-F3E5A9D6D6C5}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
