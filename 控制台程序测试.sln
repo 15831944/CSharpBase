@@ -33,6 +33,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "序列化字符串是否包
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "判断XML中是否存在某个节点", "判断XML中是否存在某个节点\判断XML中是否存在某个节点.csproj", "{0CEA3776-0CD8-44C2-8CFC-09A96D7DCBE0}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "时间字符串转DateTime", "时间字符串转DateTime\时间字符串转DateTime.csproj", "{3BF8A77B-FA4B-4914-BC90-88CB217F47A9}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -99,6 +101,10 @@ Global
 		{0CEA3776-0CD8-44C2-8CFC-09A96D7DCBE0}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{0CEA3776-0CD8-44C2-8CFC-09A96D7DCBE0}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{0CEA3776-0CD8-44C2-8CFC-09A96D7DCBE0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3BF8A77B-FA4B-4914-BC90-88CB217F47A9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3BF8A77B-FA4B-4914-BC90-88CB217F47A9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3BF8A77B-FA4B-4914-BC90-88CB217F47A9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3BF8A77B-FA4B-4914-BC90-88CB217F47A9}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
