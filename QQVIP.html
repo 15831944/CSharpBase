@@ -1,0 +1,29 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title></title>
+
+</head>
+<body>
+    <!--<div style="width:500px;height:500px;border:1px solid red"></div>-->
+
+    <div id="mod_player"></div>
+
+
+</body>
+</html>
+<script src="http://imgcache.qq.com/tencentvideo_v1/tvp/js/tvp.player_v2.js"
+        type="text/javascript"></script>
+<script>
+  var video = new tvp.VideoInfo();
+  video.setVid("v0515wavsoa");
+    var player = new tvp.Player();
+    player.create({
+        width: 480,
+        height: 360,
+        video: video,
+        modId: "mod_player",
+        onwrite: function () { alert("播放器显示完毕"); }
+    });</script>
