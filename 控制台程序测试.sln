@@ -35,6 +35,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "判断XML中是否存在某
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "时间字符串转DateTime", "时间字符串转DateTime\时间字符串转DateTime.csproj", "{3BF8A77B-FA4B-4914-BC90-88CB217F47A9}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "委托", "委托\委托.csproj", "{40E639AA-C687-424B-94D6-83E67091911B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DateTime中Date属性", "DateTime中Date属性\DateTime中Date属性.csproj", "{A5F3DE30-9D8C-4F6B-9027-24EA88B89BA1}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -105,6 +109,14 @@ Global
 		{3BF8A77B-FA4B-4914-BC90-88CB217F47A9}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{3BF8A77B-FA4B-4914-BC90-88CB217F47A9}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{3BF8A77B-FA4B-4914-BC90-88CB217F47A9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{40E639AA-C687-424B-94D6-83E67091911B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{40E639AA-C687-424B-94D6-83E67091911B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{40E639AA-C687-424B-94D6-83E67091911B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{40E639AA-C687-424B-94D6-83E67091911B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A5F3DE30-9D8C-4F6B-9027-24EA88B89BA1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A5F3DE30-9D8C-4F6B-9027-24EA88B89BA1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A5F3DE30-9D8C-4F6B-9027-24EA88B89BA1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A5F3DE30-9D8C-4F6B-9027-24EA88B89BA1}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
