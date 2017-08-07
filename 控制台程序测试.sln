@@ -39,6 +39,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "委托", "委托\委托.csp
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DateTime中Date属性", "DateTime中Date属性\DateTime中Date属性.csproj", "{A5F3DE30-9D8C-4F6B-9027-24EA88B89BA1}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "计算器", "计算器\计算器.csproj", "{0F9573CF-2F4F-4E4F-9E71-B09B76090B03}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -117,6 +119,10 @@ Global
 		{A5F3DE30-9D8C-4F6B-9027-24EA88B89BA1}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A5F3DE30-9D8C-4F6B-9027-24EA88B89BA1}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A5F3DE30-9D8C-4F6B-9027-24EA88B89BA1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0F9573CF-2F4F-4E4F-9E71-B09B76090B03}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0F9573CF-2F4F-4E4F-9E71-B09B76090B03}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0F9573CF-2F4F-4E4F-9E71-B09B76090B03}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0F9573CF-2F4F-4E4F-9E71-B09B76090B03}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
