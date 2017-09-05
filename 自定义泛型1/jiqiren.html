@@ -1,0 +1,52 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title></title>
+</head>
+<body>
+<input type="text"id="test"/>
+<button type="button" onclick="jiqiren()">请求</button>
+<input type="file" accept="" id="mp3"/>
+<button type="button" onclick="yinpin()">上传音频</button>
+</body>
+</html>
+
+<script type="text/javascript" src="https://cdn.bootcss.com/jquery/3.2.1/jquery.min.js"></script>
+<script>
+    $(function () {
+         jiqiren=function () {
+            $.ajax({
+                type: "Post",
+                url: "http://wkll.weikebang.com/home/jiqiren",
+                data: {str:$('#test').val()},
+                dataType: "json",
+                success: function (data) {
+                    alert("获取成功，数据===" + data.data);
+                },
+                error: function () {
+                    alert("获取失败");
+                }
+            });
+        }
+         yinpin = function () {
+            // var formData = new FormData();
+             //formData.append("soundFile", document.getElementById("mp3").files[0]);
+            // formData.append("clsId",13);
+            $.ajax({
+                type: "Post",
+                url: "http://localhost:27320/home/UploadSound",
+                data: { soundFile: $('#mp3').val(),clsId:13},
+                dataType: "json",
+                success: function (data) {
+                    alert("获取成功，数据===" + data.data);
+                },
+                error: function () {
+                    alert("获取失败");
+                }
+            });
+        }
+    })
+
+</script>
