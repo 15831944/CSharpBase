@@ -47,6 +47,15 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UTC时间OR北京时间", "
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Base64Encode", "Base64Encode\Base64Encode.csproj", "{CF8400CB-7FD1-4929-99BA-5FBD19B43AFB}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CSharp获取MP3时长", "CSharp获取MP3时长\CSharp获取MP3时长.csproj", "{3CD027AB-8E67-4CDE-9D1C-C5794CD9CDC9}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{4DDE74EE-E458-4B0E-B479-DAC34896BD3F}"
+	ProjectSection(SolutionItems) = preProject
+		Index.html = Index.html
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "批量修改文件名", "批量修改文件名\批量修改文件名.csproj", "{856BC418-BB05-4509-83E8-0A57FD77D1C2}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -141,6 +150,14 @@ Global
 		{CF8400CB-7FD1-4929-99BA-5FBD19B43AFB}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{CF8400CB-7FD1-4929-99BA-5FBD19B43AFB}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{CF8400CB-7FD1-4929-99BA-5FBD19B43AFB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3CD027AB-8E67-4CDE-9D1C-C5794CD9CDC9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3CD027AB-8E67-4CDE-9D1C-C5794CD9CDC9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3CD027AB-8E67-4CDE-9D1C-C5794CD9CDC9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3CD027AB-8E67-4CDE-9D1C-C5794CD9CDC9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{856BC418-BB05-4509-83E8-0A57FD77D1C2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{856BC418-BB05-4509-83E8-0A57FD77D1C2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{856BC418-BB05-4509-83E8-0A57FD77D1C2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{856BC418-BB05-4509-83E8-0A57FD77D1C2}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

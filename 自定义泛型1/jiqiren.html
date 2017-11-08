@@ -16,10 +16,10 @@
 <script type="text/javascript" src="https://cdn.bootcss.com/jquery/3.2.1/jquery.min.js"></script>
 <script>
     $(function () {
-         jiqiren=function () {
+         jiqiren = function () {
             $.ajax({
                 type: "Post",
-                url: "http://wkll.weikebang.com/home/jiqiren",
+                url: "http://localhost:27320/home/jiqiren",
                 data: {str:$('#test').val()},
                 dataType: "json",
                 success: function (data) {
@@ -29,24 +29,33 @@
                     alert("获取失败");
                 }
             });
-        }
+        };
          yinpin = function () {
-            // var formData = new FormData();
-             //formData.append("soundFile", document.getElementById("mp3").files[0]);
-            // formData.append("clsId",13);
+            var formData = new FormData();
+            formData.append("soundFile", document.getElementById("mp3").files[0]);
+            formData.append("clsId", 13);
+            formData.append("content", "sdfsdfsdf");
             $.ajax({
                 type: "Post",
                 url: "http://localhost:27320/home/UploadSound",
-                data: { soundFile: $('#mp3').val(),clsId:13},
+                data: formData,
                 dataType: "json",
+                contentType: false,
+                processData: false,
                 success: function (data) {
-                    alert("获取成功，数据===" + data.data);
+                    if (data.saved) {
+                        alert("获取成功，数据===" + data.filename);
+                    } else {
+                        alert("获取失败");
+                    }
+
+
                 },
                 error: function () {
                     alert("获取失败");
                 }
             });
-        }
+        };
     })
 
 </script>
