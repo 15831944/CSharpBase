@@ -14,8 +14,8 @@ namespace TopApi
         static void Main(string[] args)
         {
             string sessionkey = "6101f03c14614cea6de7b2c0611deb0b57f8d7d136bc85f327294445";
-            string appkey = "24685754";
-            string AppSecret = "33efd742f61a145463a6d238b4858665";
+            string appkey = "********";
+            string AppSecret = "************************************";
             string url = "http://gw.api.taobao.com/router/rest";
             ITopClient client = new DefaultTopClient(url, appkey, AppSecret,"JSON");
             TbkItemGetRequest req = new TbkItemGetRequest();
