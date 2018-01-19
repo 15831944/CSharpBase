@@ -71,6 +71,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "获取HTML源码", "获取H
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebClient下载文件", "WebClient下载文件\WebClient下载文件.csproj", "{060B1AE2-301B-4657-9156-4352BCB6C574}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "正则表达式提取信息", "正则表达式提取信息\正则表达式提取信息.csproj", "{A2AA055A-DF10-4FE2-AF28-20F13B377F7D}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -193,6 +195,10 @@ Global
 		{060B1AE2-301B-4657-9156-4352BCB6C574}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{060B1AE2-301B-4657-9156-4352BCB6C574}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{060B1AE2-301B-4657-9156-4352BCB6C574}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A2AA055A-DF10-4FE2-AF28-20F13B377F7D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A2AA055A-DF10-4FE2-AF28-20F13B377F7D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A2AA055A-DF10-4FE2-AF28-20F13B377F7D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A2AA055A-DF10-4FE2-AF28-20F13B377F7D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
