@@ -73,6 +73,28 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebClient下载文件", "We
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "正则表达式提取信息", "正则表达式提取信息\正则表达式提取信息.csproj", "{A2AA055A-DF10-4FE2-AF28-20F13B377F7D}"
 EndProject
+Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "WebSite1(1)", "C:\Users\Ezong\Documents\Visual Studio 2015\WebSites\WebSite1\", "{1E8246EF-B6BC-4AB2-8008-BF140BB3CF5F}"
+	ProjectSection(WebsiteProperties) = preProject
+		TargetFrameworkMoniker = ".NETFramework,Version%3Dv4.6.1"
+		Debug.AspNetCompiler.VirtualPath = "/localhost_9614"
+		Debug.AspNetCompiler.PhysicalPath = "C:\Users\Ezong\Documents\Visual Studio 2015\WebSites\WebSite1\"
+		Debug.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_9614\"
+		Debug.AspNetCompiler.Updateable = "true"
+		Debug.AspNetCompiler.ForceOverwrite = "true"
+		Debug.AspNetCompiler.FixedNames = "false"
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.VirtualPath = "/localhost_9614"
+		Release.AspNetCompiler.PhysicalPath = "C:\Users\Ezong\Documents\Visual Studio 2015\WebSites\WebSite1\"
+		Release.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_9614\"
+		Release.AspNetCompiler.Updateable = "true"
+		Release.AspNetCompiler.ForceOverwrite = "true"
+		Release.AspNetCompiler.FixedNames = "false"
+		Release.AspNetCompiler.Debug = "False"
+		VWDPort = "9614"
+		SlnRelativePath = "C:\Users\Ezong\Documents\Visual Studio 2015\WebSites\WebSite1\"
+		DefaultWebSiteLanguage = "Visual C#"
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -199,6 +221,10 @@ Global
 		{A2AA055A-DF10-4FE2-AF28-20F13B377F7D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A2AA055A-DF10-4FE2-AF28-20F13B377F7D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A2AA055A-DF10-4FE2-AF28-20F13B377F7D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1E8246EF-B6BC-4AB2-8008-BF140BB3CF5F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1E8246EF-B6BC-4AB2-8008-BF140BB3CF5F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1E8246EF-B6BC-4AB2-8008-BF140BB3CF5F}.Release|Any CPU.ActiveCfg = Debug|Any CPU
+		{1E8246EF-B6BC-4AB2-8008-BF140BB3CF5F}.Release|Any CPU.Build.0 = Debug|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
