@@ -92,6 +92,8 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "libs", "libs", "{B8F97DD2-F
 		C:\Users\Ezong\Documents\Tencent Files\372364996\FileRecv\NetExtensions\NetExtensions\bin\Debug\NetExtensions.dll = C:\Users\Ezong\Documents\Tencent Files\372364996\FileRecv\NetExtensions\NetExtensions\bin\Debug\NetExtensions.dll
 	EndProjectSection
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Random", "Random\Random.csproj", "{EEA7A974-FB18-4500-A784-545873D794C2}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -226,6 +228,10 @@ Global
 		{4B1A6EF4-E1FE-41B7-A32D-4FE02B337CE4}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{4B1A6EF4-E1FE-41B7-A32D-4FE02B337CE4}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{4B1A6EF4-E1FE-41B7-A32D-4FE02B337CE4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EEA7A974-FB18-4500-A784-545873D794C2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EEA7A974-FB18-4500-A784-545873D794C2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EEA7A974-FB18-4500-A784-545873D794C2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EEA7A974-FB18-4500-A784-545873D794C2}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
