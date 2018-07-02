@@ -10,12 +10,18 @@ namespace Random
     {
         static void Main(string[] args)
         {
-            System.Random r = new System.Random();
+            System.Random random = new System.Random();
             for (int i = 0; i < 1000; i++)
             {
-                Console.WriteLine(i+"==");
-                double result = r.NextDouble();
-                Console.WriteLine(result.ToString());
+               
+                //int day = random.Next(14, 20);
+                //int hour = random.Next(0, 24);
+                //int minute = random.Next(0, 60);
+                //int second = random.Next(0, 60);
+                //string tempStr =
+                //    $"{DateTime.Now:yyyy}-{DateTime.Now:MM}-{day} {hour}:{minute}:{second}";
+                //DateTime rTime = Convert.ToDateTime(tempStr);
+                Console.WriteLine(random.Next(0,2));
             }
 
         }
