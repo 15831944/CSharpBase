@@ -102,6 +102,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "小说抓取", "小说抓�
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "调用命令行程序", "调用命令行程序\调用命令行程序.csproj", "{2B28D466-B624-4C4D-AF05-31603B3AA935}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SOLID", "SOLID\SOLID.csproj", "{623A81A2-7BD8-40E9-9893-98A58A8D97DB}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -256,6 +258,10 @@ Global
 		{2B28D466-B624-4C4D-AF05-31603B3AA935}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{2B28D466-B624-4C4D-AF05-31603B3AA935}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{2B28D466-B624-4C4D-AF05-31603B3AA935}.Release|Any CPU.Build.0 = Release|Any CPU
+		{623A81A2-7BD8-40E9-9893-98A58A8D97DB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{623A81A2-7BD8-40E9-9893-98A58A8D97DB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{623A81A2-7BD8-40E9-9893-98A58A8D97DB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{623A81A2-7BD8-40E9-9893-98A58A8D97DB}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
