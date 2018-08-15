@@ -108,6 +108,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "时间字符串数组转换
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UnityTest", "UnityTest\UnityTest.csproj", "{06723B04-F17F-4044-B022-C5AFE287DDA6}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CSharp常见算法", "CSharp常见算法\CSharp常见算法.csproj", "{7703756A-3AAA-40B6-99D5-5E35FE5E87B9}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -274,6 +276,10 @@ Global
 		{06723B04-F17F-4044-B022-C5AFE287DDA6}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{06723B04-F17F-4044-B022-C5AFE287DDA6}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{06723B04-F17F-4044-B022-C5AFE287DDA6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7703756A-3AAA-40B6-99D5-5E35FE5E87B9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7703756A-3AAA-40B6-99D5-5E35FE5E87B9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7703756A-3AAA-40B6-99D5-5E35FE5E87B9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7703756A-3AAA-40B6-99D5-5E35FE5E87B9}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
